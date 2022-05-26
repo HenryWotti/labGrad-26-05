@@ -13,7 +13,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         // using default font standard.flf, obtained from maven artifact
-        String asciiArt1 = FigletFont.convertOneLine("hello");
+        String asciiArt1 = FigletFont.convertOneLine("ohayou");
         System.out.println(asciiArt1);
         
         // using font font2.flf, located somewhere in classpath under path /flf/font2.flf
